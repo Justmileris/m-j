@@ -14,13 +14,10 @@ function letsHaveSomeFun() {
 		e = e || window.event;
 		var magic = (typeof e.which == "number") ? e.which : e.keyCode;
 		
-		
 		if (magic) {
-			
 			input += String.fromCharCode(magic);	
 			document.getElementById('text').style.color=input;
 			document.body.style.background=input;
-		
 		}
 	};
 }
@@ -28,8 +25,6 @@ function letsHaveSomeFun() {
 function resetInput() {
 	input = "";
 }
-
-
 
 theMostImportantMainFunction();
 letsHaveSomeFun();
