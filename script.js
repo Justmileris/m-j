@@ -2,7 +2,7 @@ var input = "";
 var timeoutId = 0;
 
 function theMostImportantMainFunction() {
-	console.log('Hello, World!');
+	console.log("Hi there! Let's create something great together!");
 }
 
 function letsHaveSomeFun() {
