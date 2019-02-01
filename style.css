@@ -563,6 +563,15 @@ display: inline-block;
 	#home h3 {
 		font-size: 18px;
 	}
+	#footer .logo{
+		font-size: 40px;
+	}
+}
+
+@media(max-width: 470px){	
+	#footer .logo{
+		font-size: 26px;
+	}
 }
 
 @media(max-width: 410px){
